@@ -1,0 +1,1 @@
+Este fue un tipo de logger elegido por usuario

@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>340</x><y>200</y><w>180</w><h>80</h></coordinates><panel_attributes>bg=green
+fg=black
+App
+--
+
+--
+_+main(args:String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>270</y><w>110</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;60;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>190</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;100;60</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>120</y><w>130</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;110;80</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>30</x><y>20</y><w>280</w><h>430</h></coordinates><panel_attributes>mx.utng.s07
+--
+bg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>160</y><w>180</w><h>80</h></coordinates><panel_attributes>bg=orange
+fg=black
+Lector
+--
+-scanner:Scanner
+--
++leerOpcion():byte</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>50</y><w>180</w><h>80</h></coordinates><panel_attributes>bg=green
+fg=black
+Menu
+--
+
+--
++muestraOpciones:void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>270</y><w>210</w><h>120</h></coordinates><panel_attributes>bg=pink
+fg=black
+ListaTareas
+--
+--
++CrearNuevaLista():void
++verListaTareas():void
++verTareasDeLista():void
++actualizarListaDeTareas():void
++eliminarListaDeTareas():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>270</x><y>10</y><w>260</w><h>30</h></coordinates><panel_attributes>se refiere a que pertenecen al paque mx....
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>

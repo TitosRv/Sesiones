@@ -1,0 +1,2 @@
+Inicio - Variables de entorno - Variables de entorno de sistema - Localizar la variable Path seleccionar
+dando doble click - Añadir C:/Gradle/gradle-8.5/bin

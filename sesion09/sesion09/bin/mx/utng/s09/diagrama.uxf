@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>10</y><w>300</w><h>280</h></coordinates><panel_attributes>Vehiculo
+--
+-combustible:Combustible
+-llantas:Llanta[4]
+-marca:String
+-modelo:int
+-anioFabricacion:int
+--
++&lt;&lt;Constructor&gt;&gt;Vehiculo()
++getCombustible():combustible
++setCombustible(Combustible):void
+...
++colocarLlantas(Llanta, Llanta, Llanta, Llanta):void
++llenarTanque():void
++avanzar():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>300</y><w>140</w><h>110</h></coordinates><panel_attributes>Combustible
+--
+-litrosMaximos:short
+-litrosActuales:short
+--
++usar():void
+--getters y setters--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>300</y><w>140</w><h>120</h></coordinates><panel_attributes>Llanta
+--
+-ancho:float
+-diametro:float
+-presion:float
+--
++rodar():void
+..getters y setters</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>330</y><w>100</w><h>30</h></coordinates><panel_attributes>Composicion</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>30</y><w>100</w><h>290</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;270;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>30</y><w>50</w><h>290</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>30;270;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>280</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>320</y><w>120</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>100;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>320</y><w>120</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;60;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>480</y><w>150</w><h>60</h></coordinates><panel_attributes>Composicion
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>400</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;70;80</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>350</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>20;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>410</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>90;10;10;70</additional_attributes></element></diagram>
